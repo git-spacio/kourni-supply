@@ -1,0 +1,22 @@
+# Ignorar todos los CSV
+*.csv
+
+# Ignorar archivos de Python
+**/__pycache__/
+*.pyc
+
+# Archivos de credenciales y configuración
+**/creds/
+*.env
+*.json
+
+# Archivos de log
+*.log
+**/Logs/
+cron_logs.txt
+
+# Archivos compilados y temporales
+*.jar
+*.pyc
+*.plk
+.DS_Store
